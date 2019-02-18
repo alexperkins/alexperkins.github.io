@@ -1,4 +1,19 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "The Bridge"
-theme = "timer-hugo"
+baseURL= "/"
+languageCode= "en"
+title= "The Bridge"
+paginate = 5
+copyright = "All rights reserved - 2019"
+theme = "casper"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+  description = "FC Cincinnati Supporter's Group"
+  metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
+  cover = "/img/cover.jpg"
+  author = "Alex Perkins"
+  authorlocation = "Cincinnati, OH"
+  authorwebsite = "alexperkins.github.io"
+  authorbio= ""
+  logo = ""
+  hjsStyle = "default"
+  paginatedsections = ["posts"]
